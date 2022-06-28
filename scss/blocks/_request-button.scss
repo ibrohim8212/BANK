@@ -1,0 +1,56 @@
+.request-button-first{
+  width: 163px;
+  height: 44px;
+  background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+  border-radius: 22px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  border: none;
+}
+
+.request-button-first:hover{
+  background: linear-gradient(135deg, #84f7b8 0%, #80d6dd 99.58%);
+}
+
+.request-button-first:active{
+  background: linear-gradient(135deg, #84e3a6 0%, #80d6dd 99.58%);
+}
+
+.request-button{
+  width: 163px;
+  height: 44px;
+  background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+  border-radius: 22px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  border: none;
+}
+
+.request-button:hover{
+  background: linear-gradient(135deg, #84f7b8 0%, #80d6dd 99.58%);
+}
+
+.request-button:active{
+  background: linear-gradient(135deg, #84e3a6 0%, #80d6dd 99.58%);
+}
+
+@media screen and (max-width:670px){
+  
+  .request-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width:641px){
+  .request-button-first{
+    display: none;
+  }
+}

@@ -1,0 +1,142 @@
+.main__answer{
+  padding-bottom: 96px;
+  padding-top: 96px;
+  background-image: url(../img/phones.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 526px) calc(50% - 601px);
+}
+
+.answer__h2{
+  max-width: 423px;
+  max-height: 64px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  color: #2D314D;
+}
+
+.answer__p{
+  max-width: 635px;
+  max-height: 56px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #9597A5;
+}
+
+.answer__list{
+  margin-top: 72px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+}
+
+.answer__item{
+  width: 255px;
+  height: 278px;
+}
+
+.answer__link{
+  text-decoration: none;
+}
+
+.answer__img{
+  width: 72px;
+  height: 72px;
+  transition: 0.1s;
+}
+
+.answer__img:hover{
+  transform: scale(1.2);
+}
+
+.answer__h3{
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2D314D;
+}
+
+.answer__h3:hover{
+  color: #30C88F;
+}
+
+.link__p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #9597A5;
+}
+
+.link__p:hover{
+  color: #30C88F;
+}
+
+@media screen and (max-width:1062px) {
+  .main__answer{
+    background-position: calc(50% + 526px) calc(50% - 731px);
+  }
+  
+  .answer__list{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .answer__item:nth-child(2n+1){
+    margin-right: 200px;
+  }
+}
+
+@media screen and (max-width:740px) {
+  .main__answer{
+    background-image: url(../../img/phones.png);
+    background-repeat: no-repeat;
+  }
+  
+  .answer__list{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .answer__item{
+    text-align: center;
+  }
+  
+  .answer__item:nth-child(2n+1) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width:550px){
+  .main__answer{
+    background-image: url(../../img/phones.png);
+  }
+  
+  .answer__h2{
+    max-width: 327px;
+    height: 76px;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 38px;
+    margin-left: auto;
+  }
+  
+  .answer__p{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:454px){
+  .answer__item{
+    text-align: center;
+    margin-right: 0;
+  }
+  
+  .answer__item:nth-child(2n+1){
+    margin-right: 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,17 @@
+.hamburger-link{
+  position: absolute;
+}
+
+.header__hamburger{
+  display: none;
+}
+
+@media screen and (max-width:641px){
+  .hamburger-link{
+    position: relative;
+  }
+  
+  .header__hamburger{
+    display: inline-block;
+  }
+}
